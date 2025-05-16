@@ -12,12 +12,12 @@ async function sharedMetaData(params) {
     title: {
       default:
         settings?.title ||
-        "Stablo - Blog Template for Next.js & Sanity CMS",
-      template: "%s | Stablo"
+        "MD. J H S - Blog for Next.js & Sanity CMS",
+      template: "%J | MD. J H S"
     },
     description:
       settings?.description ||
-      "Stablo - popular open-source next.js and sanity blog template",
+      "MD. J H S - Blog for Next.js & Sanity CMS",
     keywords: ["Next.js", "Sanity", "Tailwind CSS"],
     authors: [{ name: "Surjith" }],
     canonical: settings?.url,
@@ -33,7 +33,7 @@ async function sharedMetaData(params) {
       ]
     },
     twitter: {
-      title: settings?.title || "Stablo Template",
+      title: settings?.title || "MD. J H S",
       card: "summary_large_image"
     },
     robots: {
